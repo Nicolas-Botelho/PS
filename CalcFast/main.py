@@ -1,8 +1,9 @@
 from fastapi import FastAPI
-from Controller.Controller import Controller
+from Controller import Controller
+
+
 
 app = FastAPI()
-
 
 @app.get("/")
 async def root():

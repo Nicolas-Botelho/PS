@@ -8,8 +8,8 @@ class Request:
 
 class Response:
     answer: float
-    e: str
+    err: str
 
     def __init__(self, ans: float, err: str):
         self.answer = ans
-        self.e = err
+        self.err = err

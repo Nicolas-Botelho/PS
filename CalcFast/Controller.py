@@ -1,8 +1,8 @@
-from Model.DTO import Request as OpReq, Response as OpRes
-from Model.Soma import Soma
-from Model.Subs import Subs
-from Model.Mult import Mult
-from Model.Divs import Divs
+from DTO import Request as OpReq, Response as OpRes
+from Soma import Soma
+from Subs import Subs
+from Mult import Mult
+from Divs import Divs
 
 class Controller:
 

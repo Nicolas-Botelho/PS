@@ -1,4 +1,4 @@
-from Model.DTO import Request, Response
+from DTO import Request, Response
 
 
 class IOperacao:
