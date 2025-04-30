@@ -1,4 +1,4 @@
-from DTO import Request, Response
+from lib.DTO import Request, Response
 
 def soma(req: Request):
     res = Response(req.num1 + req.num2, "")
